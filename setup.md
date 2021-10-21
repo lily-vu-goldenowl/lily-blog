@@ -52,7 +52,7 @@ npm i prettier eslint-plugin-prettier eslint-config-prettier -D
 
 ## 6. Install lint-staged (https://github.com/okonet/lint-staged)
 
-````bash
+```bash
 npx mrm@2 lint-staged
 ```
 
@@ -63,4 +63,4 @@ npx mrm@2 lint-staged
   "lint:fix": "eslint --fix --ext js,jsx src/",
   "prettier": "prettier --check \"src/**/(**.jsx|*.js|*.scss|*.css)\"",
   "prettier:fix": "prettier --write \"src/**/(**.jsx|*.js|*.scss|*.css)\""
-````
+```
